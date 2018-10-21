@@ -9,6 +9,7 @@ a {
 }
 
 header {
+  background: Black;
   color:Black;
   padding: 15px 0 0 15px;
 }
@@ -34,7 +35,7 @@ nav ul ol {
   color: White;
   display: inline-block;
   list-style: none;
-  padding: 5px 15px;
+  padding: 5px 0 0 15px;
 }
 
 nav ul li {
