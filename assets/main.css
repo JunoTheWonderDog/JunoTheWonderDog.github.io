@@ -38,6 +38,13 @@ nav ul ol {
   padding: 5px 0 0 15px;
 }
 
+nav ul div {
+	display:inline-block;
+	min-width:0.1cm;
+	height:1.2cm;
+	vertical-align: middle;"
+}
+
 nav ul li {
   text-shadow: 2px 2px #000000;
   color: White;
