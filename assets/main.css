@@ -1,41 +1,57 @@
 body {
-  background: #68c28e;
-  margin: 0;
-  font-family: Arial;
+    background: #68c28e;
+    margin: 0;
+    font-family: Arial;
 }
 
 a {
-  color: #68c28e;
+    color: #68c28e;
 }
 
 header {
-  background:Black;
-  color:Black;
-  padding: 15px 0 0 15px;
+    background: Black;
+    color:Black;
+    padding: 15px 0 0 15px;
 }
 
 header h1 {
-  margin: 0;
-  display: inline-block;
+    margin: 0;
+    display: inline-block;
 }
 
 header nav h1 {
-  text-shadow: 2px 2px #000000;
-  color: White;
+    text-shadow: 2px 2px #000000;
+    color: White;
 }
 
 nav ul {
-  margin: 0;
-  padding: 0 0 0 15px;
-  display: inline;
+    margin: 0;
+    padding: 0 0 0 15px;
+    display: inline;
 }
 
 nav ul ol {
-  text-shadow: 2px 2px #000000;
-  color: White;
-  display: inline-block;
-  list-style: none;
-  padding: 5px 0 0 15px;
+	color: white;
+	display:inline-block;
+	min-width:0.1cm;
+	height:1.2cm;
+	padding: 0 0 0 15px;
+}
+
+nav ul li {
+    text-shadow: 2px 2px #000000;
+    color: White;
+    display: inline-block;
+    list-style: none;
+    padding: 0 0 0 15px;
+}
+
+nav ul li a {
+    color:  White;
+}
+
+nav ul img {
+    padding: 0 0 0 12px;
 }
 
 nav ul div {
@@ -45,32 +61,16 @@ nav ul div {
 	vertical-align: middle;"
 }
 
-nav ul li {
-  text-shadow: 2px 2px #000000;
-  color: White;
-  display: inline-block;
-  list-style: none;
-  padding: 5px 15px;
-}
-
-nav ul li a {
-  color:  White;
-}
-
-nav ul img {
-  padding: 0 0 0 12px;
-}
-
 div.col {
-  background: white;
-  border-radius: 10px;
-  color: Black;
-  padding: 10px 0 10px 20px;
-  margin: .5%;
-  width: 50.5%;
+    background: white;
+    border-radius: 10px;
+    color: Black;
+    padding: 10px 0 10px 20px;
+    margin: .5%;
+    width: 50.5%;
 }
 
 footer {
-  padding: 0 0 0 17px;
-  color: White;
+    padding: 0 0 0 17px;
+    color: White;
 }
