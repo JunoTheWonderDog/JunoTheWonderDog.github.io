@@ -3,7 +3,6 @@ body {
     margin: 0;
     font-family: Arial;
 }
-
 a {
     color: #170dab;
 }
@@ -24,22 +23,18 @@ header div ol {
 	  height:1.2cm;
 	  padding: 0 0 7px 10px;
 }
-
 header div li {
     color: White;
     display: inline-block;
     list-style: none;
 	  padding: 0 0 0 10px;
 }
-
 header div li a {
     color:  White;
 }
-
 header div img {
 	  padding: 0 0 0 10px;
 }
-
 div.col {
     background: White;
     border-radius: 10px;
@@ -49,7 +44,6 @@ div.col {
     width: 47.5%;
 	  box-shadow: 3px 5px 7px #090909;
 }
-
 footer {
     padding: 0 0 0 17px;
     color: White;
