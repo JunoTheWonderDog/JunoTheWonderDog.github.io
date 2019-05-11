@@ -5,10 +5,10 @@ ErrorDocument 500 /errors/500.html
 
 # mod_rewrite starts here
 RewriteEngine on
+RewriteCond %{HTTP_HOST} ^(www\.)?subdomain\.example\.com$
+RewriteCond %{REQUEST_URI} !^/subdomain
+RewriteRule ^(.*)$ /subdomain/$1 [L]
 
 # Doesn't apply to existing dirs and check for .html
 RewriteCond %{REQUEST_FILENAME} !-d
 RewriteCond %{REQUEST_FILENAME}\.html -f
-
-# Show page with .html ext
-RewriteRule ^(.*)$ $1.html [NC,L]
