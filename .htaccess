@@ -6,10 +6,6 @@ ErrorDocument 500 /errors/500.html
 # mod_rewrite starts here
 RewriteEngine on
 
-# Get rid of www
-RewriteCond %{HTTP_HOST} ^www\.
-RewriteRule ^(.*)$ http://junothewonderdog.com/$1 [R=301,L]
-
 # Doesn't apply to existing dirs and check for .html
 RewriteCond %{REQUEST_FILENAME} !-d
 RewriteCond %{REQUEST_FILENAME}\.html -f
