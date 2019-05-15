@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title>Home | Wonder Dog</title>
+    <link rel="stylesheet" href="css/style.css">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  </head>
+  <body>
+    <header class="site-header">
+      <div class="header-stuff">
+        <div id="side-nav" class="side-nav">
+          <a href="javascript:void(0)" class="close-btn" onclick="closeNav()">&times;</a>
+          <a href="#juno-info">About</a>
+          <a href="pages/new.html">New</a>
+          <a href="pages/gallery.html">Gallery</a>
+          <a href="pages/friends.html">Friends</a>
+          <a href="mailto:admin@junothewonderdog.com">Contact</a>
+        </div>
+        <div class="logo">
+          <font size="5" face="verdana"><b>Juno The Wonder Dog</b></font>
+        </div>
+        <span class="side-nav-logo" onclick="openNav()">&#9776;</span>
+        <div class="socials">
+          <a href="https://instagram.com/juno.the.wonder.dog">
+            <img src="images/socials/instagram.png" alt="instagram"></a>
+          <a href="https://facebook.com/junothewonderdog">
+            <img src="images/socials/facebook.png" alt="facebook"></a>
+        </div>
+      </div>
+    </header>
+    <div class="background">
+    </div>
+    <div id="juno-info" class="juno-info">
+      <div class="juno-txt">
+        <font size="5" face="verdana"><b>About Juno</b></font>
+      </div>
+      <article class="juno-more-info">
+        Juno is a <a href="https://tamaruke.com/about">tamaruke</a>,<br>
+        and a registered therapy assistance dog.<br>
+        She will break your leg, run away, and scare cats away
+      </article>
+    </div>
+    <!-- this is here for fun and has no purpose <footer class="footer">
+        <center>
+          &copy 2019 <b>junothewonderdog.com</b> <i>All Rights Reserver</i>
+      </center>
+    </footer>-->
+    <!--https://tamaruke.com/-->
+    <script>
+    function openNav() {
+      document.getElementById("side-nav").style.width = "250px";
+    }
+
+    function closeNav() {
+      document.getElementById("side-nav").style.width = "0";
+    }
+</script>
+  </body>
+</html>
